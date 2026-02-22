@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPA & AI Automation Portfolio | Claudia Alejandra Aviles Alegria</title>
+    <meta name="description"
+        content="Portfolio of Claudia Alejandra Aviles Alegria - RPA Developer & AI Automation Specialist. Transforming business logic into automated workflows.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">CAA | RPA Dev</div>
+        <div class="nav-links">
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact" class="btn-primary-sm">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section: Profile -->
+    <header class="hero profile-hero">
+        <div class="container">
+            <div class="profile-content">
+                <h1>Claudia Alejandra Aviles Alegria</h1>
+                <p class="profile-text" data-lang="de" style="display:none">
+                    RPA Entwicklerin / Fachinformatikerin für Daten- und Prozessanalyse mit
+                    Praxiserfahrung in der Analyse, Automatisierung und Optimierung von Geschäftsprozessen.
+                    Erfahrung mit Low-Code- und RPA-Tools sowie API-basierter Systemintegration. Strukturierte,
+                    analytische Arbeitsweise mit starkem Fokus auf Dokumentation, Stabilität und nachhaltige
+                    Automatisierungslösungen.
+                </p>
+                <p class="profile-text" data-lang="en">
+                    RPA Developer / IT Specialist for Data and Process Analysis with practical experience
+                    in analyzing, automating, and optimizing business processes. Experienced with Low-Code
+                    and RPA tools as well as API-based system integration. Structured, analytical working
+                    style with a strong focus on documentation, stability, and sustainable automation solutions.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tech Stack Bar -->
+    <div class="tech-stack-bar">
+        <div class="container">
+            <div class="tech-logos">
+                <div class="tech-item">
+                    <img src="https://cdn.simpleicons.org/make/hexa" alt="Make" style="filter: none;">
+                    <span>Make</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n" style="filter: none;">
+                    <span>n8n</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.simpleicons.org/uipath/FA4616" alt="UiPath" style="filter: none;">
+                    <span>UiPath</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.simpleicons.org/google/4285F4" alt="Google Apps Script" style="filter: none;">
+                    <span>Apps Script</span>
+                </div>
+                <div class="tech-item">
+                    <!-- Using the uploaded Power Automate logo or official color -->
+                    <!-- Fallback to CDN with color if local file has issues, but user asked for this specific one -->
+                    <img src="assets/images/powerautomate-logo.jpg" alt="Power Automate" class="pa-logo">
+                    <span>Power Automate</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Private Projects Grid -->
+        <section id="projects" class="project-showcase">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-lang="en">My Projects</h2>
+                    <h2 data-lang="de" style="display:none">Meine Projekte</h2>
+                    <p data-lang="en" class="section-subtitle">Leveraging agile frameworks to provide robust automation
+                        solutions.</p>
+                    <p data-lang="de" style="display:none" class="section-subtitle">Nutzung agiler Frameworks für
+                        robuste Automatisierungslösungen.</p>
+                </div>
+
+                <div class="projects-grid three-col">
+                    <!-- Card 1: Active -->
+                    <article class="project-card-gradient" onclick="openModal('modal-editorial')">
+                        <div class="card-border-top"></div>
+                        <div class="card-content">
+                            <div class="card-icon-small">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            </div>
+                            <h3 data-lang="en">Intelligent Editorial Process Automation</h3>
+                            <h3 data-lang="de" style="display:none">Intelligente Redaktionsautomatisierung</h3>
+
+                            <p data-lang="en">Make.com + AI + RPA</p>
+                            <p data-lang="de" style="display:none">Make.com + KI + RPA</p>
+                        </div>
+                    </article>
+
+                    <!-- Card 2: Active (Lektorat) -->
+                    <article class="project-card-gradient" onclick="openModal('modal-lektorat')">
+                        <div class="card-border-top"
+                            style="background: linear-gradient(90deg, #3b82f6, #06b6d4, #10b981);"></div>
+                        <div class="card-content">
+                            <div class="card-icon-small">
+                                <i class="fa-solid fa-file-shield"></i>
+                            </div>
+                            <h3 data-lang="en">AI-Powered Autonomous Document Proofreader</h3>
+                            <h3 data-lang="de" style="display:none">KI-Gestütztes Autonomes Lektorat-System</h3>
+
+                            <p data-lang="en">Google Apps Script + LLM + Google Docs</p>
+                            <p data-lang="de" style="display:none">Google Apps Script + KI + Google Docs</p>
+                        </div>
+                    </article>
+
+                    <!-- Card 3: Placeholder -->
+                    <article class="project-card-gradient placeholder">
+                        <div class="card-border-top"></div>
+                        <div class="card-content">
+                            <div class="card-icon-small">
+                                <i class="fa-solid fa-network-wired"></i>
+                            </div>
+                            <h3 data-lang="en">Future Project</h3>
+                            <h3 data-lang="de" style="display:none">Zukünftiges Projekt</h3>
+                            <p>Coming Soon</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Modal (Hidden by default) -->
+        <div id="modal-editorial" class="modal-overlay">
+            <div class="modal-content">
+                <button class="modal-close" onclick="closeModal('modal-editorial')">&times;</button>
+
+                <div class="project-card large-card no-border">
+                    <div class="project-header">
+                        <div class="project-title">
+                            <h3>Intelligent Editorial Process Automation</h3>
+                            <div class="tags">
+                                <span class="tag">AI + RPA</span>
+                                <span class="tag">Make.com</span>
+                            </div>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric-box">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <span><strong>85%</strong> Reduced Time</span>
+                            </div>
+                            <div class="metric-box">
+                                <i class="fa-solid fa-chart-line"></i>
+                                <span><strong>1.7 mo</strong> ROI Achieved</span>
+                            </div>
+                            <div class="metric-box">
+                                <i class="fa-solid fa-sack-dollar"></i>
+                                <span data-lang="en"><strong>85%</strong> Cost Reduction</span>
+                                <span data-lang="de" style="display:none"><strong>85%</strong> Kostenreduktion</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-body">
+
+                        <!-- Left Column: Context & Workflow -->
+                        <div class="project-left">
+                            <div class="project-section">
+                                <h4>🎯 Objectives & Role</h4>
+                                <p><strong class="highlight-text">Business Context:</strong> Creation of editorial book
+                                    recommendations was
+                                    manual and fragmented, taking 3.5-5.2 hours per publication.</p>
+                                <p><strong class="highlight-text">Goal:</strong> Design an automated workflow to produce
+                                    high-quality content
+                                    reducing time and cost without compromising standards.</p>
+                                <p><strong class="highlight-text">My Role:</strong> Full implementation (Architecture,
+                                    RPA+AI, API Integration,
+                                    QA).</p>
+                            </div>
+
+                            <div class="project-section">
+                                <h4>⚙️ Automated Workflow</h4>
+                                <!-- Custom CSS Flowchart -->
+                                <div class="process-flow">
+                                    <div class="step">
+                                        <div class="step-icon"><i class="fa-solid fa-file-pen"></i></div>
+                                        <div class="step-content">Input (CMS)</div>
+                                    </div>
+                                    <div class="arrow">↓</div>
+                                    <div class="step">
+                                        <div class="step-icon"><i class="fa-solid fa-database"></i></div>
+                                        <div class="step-content">Metadata (API)</div>
+                                    </div>
+                                    <div class="arrow">↓</div>
+                                    <div class="step ai-step">
+                                        <div class="step-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                                        <div class="step-content">AI Generation</div>
+                                    </div>
+                                    <div class="arrow">↓</div>
+                                    <div class="step ai-step">
+                                        <div class="step-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                                        <div class="step-content">AI Validation</div>
+                                    </div>
+                                    <div class="arrow">↓</div>
+                                    <div class="step">
+                                        <div class="step-icon"><i class="fa-solid fa-server"></i></div>
+                                        <div class="step-content">CMS + DB</div>
+                                    </div>
+                                    <div class="arrow">↓</div>
+                                    <div class="step human-step">
+                                        <div class="step-icon"><i class="fa-solid fa-user-check"></i></div>
+                                        <div class="step-content">Human Review</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Column: Results & Tech -->
+                        <div class="project-right">
+
+                            <!-- Workflow Screenshot Section -->
+                            <div class="project-section">
+                                <h4 data-lang="en">📸 Automated Workflow Overview</h4>
+                                <h4 data-lang="de" style="display:none">📸 Workflow-Übersicht</h4>
+                                <div class="screenshot-wrapper">
+                                    <p
+                                        style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;">
+                                        Click the image below to enlarge the workflow details.
+                                    </p>
+                                    <div class="workflow-image-container"
+                                        onclick="openLightbox('assets/images/editorial/workflow-screenshot.jpg')"
+                                        style="border-radius: 8px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); cursor: pointer; transition: transform 0.3s ease;">
+                                        <img src="assets/images/editorial/workflow-screenshot.jpg"
+                                            alt="Workflow Screenshot" style="width: 100%; display: block;">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="project-section">
+                                <h4>🔍 Before vs. After</h4>
+                                <div class="comparison-table-wrapper">
+                                    <table class="comparison-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Task</th>
+                                                <th class="negative">Before (Manual)</th>
+                                                <th class="positive">After (Automated)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Research</td>
+                                                <td>Manual</td>
+                                                <td>Auto API Extraction</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Writing</td>
+                                                <td>90–120 min</td>
+                                                <td>Seconds (AI)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Links</td>
+                                                <td>Manual Search</td>
+                                                <td>Auto Discovery</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Validation</td>
+                                                <td>Manual</td>
+                                                <td>Auto + Human-in-Loop</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <!-- Accordions for Details -->
+                            <div class="project-details-group">
+                                <details>
+                                    <summary>
+                                        <strong data-lang="en">🛠️ Technology Stack</strong>
+                                        <strong data-lang="de" style="display:none">🛠️ Technologie-Stack</strong>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </summary>
+                                    <div class="details-content">
+                                        <ul>
+                                            <li><strong>Orchestrator:</strong> Make.com</li>
+                                            <li><strong>Gen AI:</strong> Claude, GPT, Gemini</li>
+                                            <li><strong>DB/CMS:</strong> Supabase, Directus</li>
+                                            <li><strong>APIs:</strong> Google Books, Trello, Serper.dev</li>
+                                        </ul>
+                                    </div>
+                                </details>
+
+                                <details>
+                                    <summary>
+                                        <strong data-lang="en">🔧 Technical Architecture</strong>
+                                        <strong data-lang="de" style="display:none">🔧 Technische Architektur</strong>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </summary>
+                                    <div class="details-content">
+                                        <p data-lang="en">Modular workflow tailored for scalability. Included automated
+                                            metadata enrichment, cross-model validation (automated editorial review),
+                                            and data persistence.</p>
+                                        <p data-lang="de" style="display:none">Modularer Workflow, skalierbar gestaltet.
+                                            Beinhaltet automatisierte Metadatenanreicherung, modellübergreifende
+                                            Validierung (automatisierte redaktionelle Prüfung) und Datenpersistenz.</p>
+                                    </div>
+                                </details>
+
+                                <details>
+                                    <summary>
+                                        <strong data-lang="en">🛡️ Quality, Risk & Resilience</strong>
+                                        <strong data-lang="de" style="display:none">🛡️ Qualität & Risiko</strong>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </summary>
+                                    <div class="details-content">
+                                        <ul data-lang="en">
+                                            <li>Risk analysis using FMEA.</li>
+                                            <li>Automatic retries for API failures.</li>
+                                            <li>Controlled degradation for continuity.</li>
+                                        </ul>
+                                        <ul data-lang="de" style="display:none">
+                                            <li>Risikoanalyse mittels FMEA.</li>
+                                            <li>Automatische Wiederholungen bei API-Fehlern.</li>
+                                            <li>Kontrollierte Degradation zur Sicherung der Kontinuität.</li>
+                                        </ul>
+                                    </div>
+                                </details>
+
+                                <details>
+                                    <summary>
+                                        <strong data-lang="en">📚 Key Learnings</strong>
+                                        <strong data-lang="de" style="display:none">📚 Wichtige Erkenntnisse</strong>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </summary>
+                                    <div class="details-content">
+                                        <p data-lang="en">Cross-validation between AI models significantly improves
+                                            output quality. Early Human-in-the-Loop integration increases trust in
+                                            production systems.</p>
+                                        <p data-lang="de" style="display:none">Die Kreuzvalidierung zwischen KI-Modellen
+                                            verbessert die Ausgabequalität erheblich. Frühe Integration von
+                                            Human-in-the-Loop erhöht das Vertrauen in Produktionssysteme.</p>
+                                    </div>
+                                </details>
+                            </div>
+
+                            <!-- Workflow Video Section -->
+                            <div class="project-section" style="margin-top: 32px;">
+                                <h4 data-lang="en">🎥 Automated Workflow Video</h4>
+                                <h4 data-lang="de" style="display:none">🎥 Automatisierungsvideo</h4>
+                                <div class="video-wrapper"
+                                    style="border-radius: 8px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1);">
+                                    <video width="100%" controls muted playsinline style="display: block;">
+                                        <source src="assets/videos/Aufzeichnung Buch.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Modal 2: Lektorat -->
+        <div id="modal-lektorat" class="modal-overlay">
+            <div class="modal-content">
+                <button class="modal-close" onclick="closeModal('modal-lektorat')">&times;</button>
+
+                <div class="project-card large-card no-border">
+                    <div class="project-header">
+                        <div class="project-title">
+                            <h3>AI-Powered Autonomous Document Proofreader</h3>
+                            <div class="tags">
+                                <span class="tag">Google Apps Script</span>
+                                <span class="tag">LLM Integration</span>
+                            </div>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric-box">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <span><strong>90%</strong> Reduced Time</span>
+                            </div>
+                            <div class="metric-box">
+                                <i class="fa-solid fa-chart-line"></i>
+                                <span><strong>1.4 mo</strong> ROI Achieved</span>
+                            </div>
+                            <div class="metric-box">
+                                <i class="fa-solid fa-sack-dollar"></i>
+                                <span data-lang="en"><strong>95%</strong> Cost Reduction</span>
+                                <span data-lang="de" style="display:none"><strong>95%</strong> Kostenreduktion</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-body">
+                        <!-- Left Column: Context & Workflow -->
+                        <div class="project-left">
+                            <div class="project-section">
+                                <h4>🎯 Objectives & Role</h4>
+                                <p><strong class="highlight-text">Business Context:</strong> Manual proofreading for
+                                    corporate documents was slow and expensive, often delaying publication cycles.</p>
+                                <p><strong class="highlight-text">Goal:</strong> Create a seamless, in-document tool to
+                                    automate orthography corrections and style improvements using advanced AI.</p>
+                                <p><strong class="highlight-text">My Role:</strong> Full Stack Development (Google Apps
+                                    Script, LLM Prompt Engineering, UI Integration).</p>
+                            </div>
+
+                            <div class="project-section">
+                                <h4>⚙️ Automated Workflow</h4>
+                                <div class="process-flow">
+                                    <div class="step">
+                                        <div class="step-icon"><i class="fa-solid fa-file-word"></i></div>
+                                        <div class="step-content">Draft Document</div>
+                                    </div>
+                                    <div class="arrow">↓</div>
+                                    <div class="step">
+                                        <div class="step-icon"><i class="fa-solid fa-play"></i></div>
+                                        <div class="step-content">Trigger "Lektorat"</div>
+                                    </div>
+                                    <div class="arrow">↓</div>
+                                    <div class="step ai-step">
+                                        <div class="step-icon"><i class="fa-solid fa-brain"></i></div>
+                                        <div class="step-content">AI Orthography Correction</div>
+                                    </div>
+                                    <div class="arrow">↓</div>
+                                    <div class="step ai-step">
+                                        <div class="step-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                                        <div class="step-content">Style Suggestions (Comments)</div>
+                                    </div>
+                                    <div class="arrow">↓</div>
+                                    <div class="step human-step">
+                                        <div class="step-icon"><i class="fa-solid fa-user-check"></i></div>
+                                        <div class="step-content">Review & Resolve</div>
+                                    </div>
+                                    <div class="arrow">↓</div>
+                                    <div class="step">
+                                        <div class="step-icon"><i class="fa-solid fa-check-double"></i></div>
+                                        <div class="step-content">Apply Suggestions</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Column: Results & Tech -->
+                        <div class="project-right">
+                            <div class="project-section">
+                                <h4>🔍 Before vs. After</h4>
+                                <div class="comparison-table-wrapper">
+                                    <table class="comparison-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Feature</th>
+                                                <th class="negative">Before (Manual)</th>
+                                                <th class="positive">After (AI)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Orthography</td>
+                                                <td>Human Review (Slow)</td>
+                                                <td>Auto-Fix (Instant)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Style Editing</td>
+                                                <td>Subjective / External</td>
+                                                <td>Consistent AI Suggestions</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Corrections Log</td>
+                                                <td>Lost in versions</td>
+                                                <td>Resolved Auto-Comments</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Application</td>
+                                                <td>Manual re-typing</td>
+                                                <td>One-click Apply</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="project-details-group">
+                                <details>
+                                    <summary>
+                                        <strong data-lang="en">🛠️ Technology Stack</strong>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </summary>
+                                    <div class="details-content">
+                                        <ul>
+                                            <li><strong>Core Logic:</strong> Google Apps Script (JavaScript)</li>
+                                            <li><strong>AI Model:</strong> GPT-4o / Claude 3.5 API</li>
+                                            <li><strong>Platform:</strong> Google Workspace (Docs)</li>
+                                            <li><strong>Interface:</strong> Custom Sidebar / Menu Items</li>
+                                        </ul>
+                                    </div>
+                                </details>
+
+                                <details>
+                                    <summary>
+                                        <strong data-lang="en">💡 Key Innovations & Workflow Buttons</strong>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </summary>
+                                    <div class="details-content">
+                                        <p>The system features a custom UI with two primary actions:</p>
+                                        <ul>
+                                            <li><strong>"Lektorat" Button:</strong> Triggers an instant sweep of the
+                                                document to fix orthography and punctuation. Corrections are added as
+                                                "Resolved" comments to keep a non-intrusive log.</li>
+                                            <li><strong>"Vorschläge anwenden" (Apply Suggestions):</strong> AI provides
+                                                style justifications via interactive comments. Once an author resolves a
+                                                suggestion, this button automatically swaps the original text with the
+                                                AI-optimized version.</li>
+                                        </ul>
+                                    </div>
+                                </details>
+                            </div>
+
+                            <!-- Workflow Video Section -->
+                            <div class="project-section" style="margin-top: 32px;">
+                                <h4 data-lang="en">🎥 Automated Workflow Video</h4>
+                                <h4 data-lang="de" style="display:none">🎥 Automatisierungsvideo</h4>
+                                <div class="video-wrapper"
+                                    style="border-radius: 8px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1);">
+                                    <video width="100%" controls muted playsinline style="display: block;">
+                                        <source src="assets/videos/Aufzeichnung Lektorat.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Ready to automate?</h2>
+                <p>Let's discuss how we can streamline your business processes.</p>
+                <div class="contact-links">
+                    <a href="mailto:contact@example.com" class="btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Claudia Alejandra Aviles Alegria. Hosted on GitHub.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox" class="lightbox-overlay" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" onclick="event.stopPropagation()">
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
